@@ -1,0 +1,52 @@
+.testt {
+  left: -280px;
+  top: -300px;
+  width: 960px;
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.tutuone {
+  left: -540px;
+  top: -300px;
+  width: 960px;
+  top: -580px;
+  position: relative;
+}
+.testt2 {
+  font-size: 22px;
+  line-height: 40px;
+}
+.h2 {
+  top: 0px;
+  position: relative;
+}
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 34px;
+  cursor: pointer;
+}
+h2 span {
+  /* 动画过渡 */
+  transition: 2s;
+}
+h2:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+h2:hover span:nth-child(1)::after {
+  content: "'";
+}
+h2:hover span:nth-child(2) {
+  margin-left: 40px;
+}
+h2:hover span {
+  color: #fff;
+  /* 文字阴影 */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.622),
+    0 0 20px rgba(255, 255, 255, 0.529);
+}

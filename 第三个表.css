@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.block-content {
+  /*display: none*/
+  height: 0vh;
+  margin-left: 820px;
+  margin-top: -60px;
+  position: relative;
+  background-color: rgb(54, 99, 162);
+}
+.zong3 {
+  margin-top: -740px;
+  width: auto;
+}
+.card3 {
+  left: 0px;
+  top: 50px;
+  position: relative;
+  border: 14px solid rgb(255, 255, 255, 0.3);
+  background-color: #495b72;
+  margin: 50vh 25vh;
+}
+
+.block-content p {
+  margin: 25px 50px 25px 25px;
+}
+
+.content3 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 2;
+  z-index: 99;
+}
+
+.card3 {
+  background-color: #285085;
+  margin: 15vh 10vh;
+  /*display: none*/
+}
+
+.tutu1-content3 {
+  margin: 20px;
+  left: -720px;
+  top: -700px;
+  width: 750px;
+  height: 630px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.5);
+}
+
+.jieshi {
+  bottom: 0px;
+  width: 1000px;
+  position: absolute;
+}
+/* 响应式卡片 */
+.container3 {
+  max-width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: 0.5s;
+}
+.container3 .card3 {
+  position: relative;
+  width: 450px;
+  height: 540px;
+  top: -6px;
+  background: #495b72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.container3:hover .card3 {
+  filter: blur(5px);
+  transform: scale(0.7);
+}
+.container3 .card3:hover {
+  filter: blur(0px);
+  transform: scale(1);
+}
+.container3 .card3:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #495b72;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container3 .card3:hover:before {
+  background: #ffffff;
+  transform: scaleY(1);
+  box-shadow: 0 15px 15px rgba(255, 255, 255, 0.2);
+}
+.container3 .card3 .content3 {
+  text-align: left;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  z-index: 2;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+.container3 .card3:hover .content3 {
+  color: rgb(33, 31, 31);
+}
+.container3 .card3 .content3 h2 {
+  font-size: 4px;
+}
+.container3 .card3 .content3 p {
+  font-size: 0.9em;
+}
+.container3 .card3 .content3 a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 500px 100px;
+  background: #f3f4f6;
+  color: rgb(236, 225, 225);
+  text-decoration: none;
+}
+.container3 .card3:hover .content3 a {
+  background: #2196f3;
+}

@@ -1,0 +1,105 @@
+.testtt {
+  left: -280px;
+  top: 0px;
+  width: 960px;
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+* {
+  /* 初始化 */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* 开启3D效果 */
+  transform-style: preserve-3d;
+}
+.cardd {
+  /* 相对定位 */
+  position: relative;
+  width: 720px;
+  height: 550px;
+  margin: 20px;
+  left: -400px;
+  top: -50px;
+  /* 开启3D效果 */
+  transform-style: preserve-3d;
+  /* 视距 */
+  perspective: 1000px;
+}
+
+.cardd .boxx {
+  /* 绝对定位 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 128%;
+  transform-style: preserve-3d;
+  /* 设置过渡 */
+  transition: 2s ease;
+}
+.cardd .boxx .img-boxx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cardd .boxx .img-boxx img {
+  width: 100%;
+  height: 100%;
+  /* 保持原有的尺寸比例，裁切长边 */
+  object-fit: cover;
+}
+.cardd .boxx .con-boxx {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 隐藏旋转div元素的背面 */
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  /* 默认沿Y轴旋转180度（在背面） */
+  transform: rotateY(180deg);
+}
+.cardd .boxx .con-boxx div {
+  color: #fff;
+  padding: 20px;
+  /* 渐变背景 */
+  background: linear-gradient(30deg, #4a729d, #6aaecd);
+  /* 默认沿Z轴偏移100px */
+  transform: translateZ(100px);
+}
+.cardd .boxx .con-boxx div h2 {
+  font-size: 60px;
+  letter-spacing: 4px;
+}
+.cardd .boxx .con-boxx div p {
+  font-size: 25px;
+  text-align: justify;
+  margin-top: 10px;
+  font-weight: 60px;
+}
+.cardd:hover .boxx {
+  /* 鼠标移入，盒子旋转180度 */
+  transform: rotateY(180deg);
+}
+.jieshi2 {
+  font-size: 20px;
+  top: -25px;
+  position: relative;
+}

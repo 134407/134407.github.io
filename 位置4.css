@@ -1,0 +1,61 @@
+.test11 {
+  left: -280px;
+  top: 40px;
+  width: 960px;
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  color: rgb(34, 90, 139);
+}
+.biao1 {
+  left: -650px;
+  width: 580px;
+  top: 100px;
+  position: relative;
+}
+.biao2 {
+  left: -50px;
+  width: 580px;
+  top: -323px;
+  position: relative;
+}
+.test12 {
+  left: -280px;
+  top: -150px;
+  width: 960px;
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.biao3 {
+  left: -220px;
+  width: 880px;
+  top: -120px;
+  position: relative;
+}
+.test13 {
+  left: -140px;
+  top: -80px;
+  width: 960px;
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.biao4 {
+  left: -500px;
+  width: 880px;
+  top: -300px;
+  position: relative;
+}
+.test14 {
+  left: -280px;
+  top: -160px;
+  width: 960px;
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}

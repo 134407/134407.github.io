@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.block-content {
+  /*display: none*/
+  height: 0vh;
+  margin-left: 820px;
+  margin-top: -60px;
+  position: relative;
+  background-color: rgb(54, 99, 162);
+}
+.zong {
+  margin-top: -580px;
+  width: auto;
+}
+.card2 {
+  left: 0px;
+  top: 50px;
+  position: relative;
+  border: 14px solid rgb(255, 255, 255, 0.3);
+  background-color: #495b72;
+  margin: 50vh 25vh;
+}
+
+.block-content p {
+  margin: 25px 50px 25px 25px;
+}
+
+.content2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 2;
+  z-index: 99;
+}
+
+.card2 {
+  background-color: #285085;
+  margin: 15vh 10vh;
+  /*display: none*/
+}
+
+.tutu1-content2 {
+  margin: 20px;
+  left: -720px;
+  top: -700px;
+  width: 750px;
+  height: 580px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.5);
+}
+
+/* 响应式卡片 */
+.container2 {
+  max-width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: 0.5s;
+}
+.container2 .card2 {
+  position: relative;
+  width: 450px;
+  height: 480px;
+  top: -40px;
+  background: #495b72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.container2:hover .card2 {
+  filter: blur(5px);
+  transform: scale(0.7);
+}
+.container2 .card2:hover {
+  filter: blur(0px);
+  transform: scale(1);
+}
+.container2 .card2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #495b72;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container2 .card2:hover:before {
+  background: #ffffff;
+  transform: scaleY(1);
+  box-shadow: 0 15px 15px rgba(255, 255, 255, 0.2);
+}
+.container2 .card2 .content2 {
+  text-align: left;
+  letter-spacing: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  z-index: 2;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+.container2 .card2:hover .content2 {
+  color: rgb(33, 31, 31);
+}
+.container2 .card2 .content2 h2 {
+  font-size: 4px;
+}
+.container2 .card2 .content2 p {
+  font-size: 0.9em;
+}
+.container2 .card2 .content2 a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 500px 100px;
+  background: #f3f4f6;
+  color: rgb(236, 225, 225);
+  text-decoration: none;
+}
+.container2 .card2:hover .content2 a {
+  background: #2196f3;
+}

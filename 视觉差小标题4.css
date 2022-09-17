@@ -1,0 +1,70 @@
+section,
+#footer2 {
+  height: 130vh;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 10vh;
+  /* 设置字体 */
+  font-family: "modern_no._20regular", serif;
+  /* 文字阴影 */
+  text-shadow: 4px 4px rgb(46, 43, 43);
+  /* 弹性布局 */
+  display: flex;
+  /* 水平居中 */
+  justify-content: center;
+  /* 垂直居中 */
+  align-items: center;
+}
+
+#footer2 {
+  background-color: #c0b5aa;
+  height: 50vh;
+  color: #fff;
+  font-size: 20vh;
+}
+.content-one4 {
+  background: url(./image/11110.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+.text-box4 {
+  width: 160%;
+  height: 100%;
+  /* 绝对定位 */
+
+  bottom: 0%;
+  /* 文字居中 */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* 旋转中心 */
+  transform-origin: center bottom;
+  /* 扭曲斜切 */
+  transform: skew(0, 0deg);
+}
+.text-box4 .cnt4 {
+  display: inline-block;
+  text-align: center;
+  margin: 40px 0 10px;
+  width: 100%;
+  max-width: 1100px;
+  transform-origin: right bottom;
+  transform: skew(0, 0deg);
+}
+
+.cnt4 h2 {
+  top: 55px;
+  text-align: center;
+  position: relative;
+  font-size: 46px;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.cnt4 p {
+  top: 55px;
+  position: relative;
+  font-size: 26px;
+  text-align: left;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  color: #fff;
+}

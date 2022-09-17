@@ -1,0 +1,11 @@
+.mingdan {
+  left: -12px;
+  top: 10px;
+  text-align: center;
+  width: 1518px;
+  height: 400px;
+  font-size: 17px;
+  color: rgb(135, 184, 205);
+  background-color: black;
+  position: relative;
+}
